@@ -1,20 +1,25 @@
 body{
 	background-image: url('../images/concrete-texture.png');
-}
-h1, h2{
-	background-color: #ffffff;
-	border-bottom: solid #cccccc 1px;
-	color: #4aaaa5;
-	margin: 15px;
-	padding: 15px;
-	font-size: 48px;
-}
-p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 
 }
+h1, h2{
+	color: #4aaaa5;
+	font-size: 55px;
+}
+
+
 li{
 	display: inline;
+
+}
+a{
+	color: #777777;
+	text-decoration: none;
+}
+li a{
+	padding: 8px;
 }
 
 footer{
@@ -28,7 +33,8 @@ footer{
 }
 .nav{
 	padding-bottom: 20px;
-	padding: 0px 200px 0px 200px;
+	padding: 25px 50px 0px 400px;
+	display: inline;
 }
 .about{
 	background-color: #ffffff;
@@ -43,9 +49,8 @@ footer{
 	padding: 25px;
 	margin: 25px;
 	border: solid #dddddd 1px;
-	width: 150px;
+	width: 160px;
 	float: left;
-
 }
 
 #name{
