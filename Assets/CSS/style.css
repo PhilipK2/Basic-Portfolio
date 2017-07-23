@@ -1,0 +1,21 @@
+body{
+	background-image: #;
+}
+h1{
+	background-color: #ffffff;
+	border-color: #cccccc;
+	color: #4aaaa5;
+}
+p{
+	color: #777777;
+}
+#name{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px;
+	width: 200px;
+	margin-left: 50px;
+}
+.header{
+	border-bottom: solid gray 1px;
+}
