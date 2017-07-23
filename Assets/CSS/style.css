@@ -8,7 +8,24 @@ h1{
 }
 p{
 	color: #777777;
+
 }
+.header{
+	border-bottom: solid gray 1px;
+}
+.nav{
+	padding-bottom: 20px;
+	float: right;
+}
+.about{
+	background-color: grey;
+	padding: 25px;
+	margin: 25px;
+	box-shadow:5px;
+	width: 500px;
+
+}
+
 #name{
 	background-color: #4aaaa5;
 	color: #ffffff;
@@ -16,6 +33,9 @@ p{
 	width: 200px;
 	margin-left: 50px;
 }
-.header{
-	border-bottom: solid gray 1px;
+
+#PhilPhoto{
+	height: 315px;
+	width: 175px;
+	float :left;
 }
