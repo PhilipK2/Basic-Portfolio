@@ -2,11 +2,10 @@ body{
 	background-image: url('../images/concrete-texture.png');
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-
 }
+
 h1, h2{
 	color: #4aaaa5;
-	font-size: 55px;
 }
 
 
@@ -24,6 +23,12 @@ li a{
 
 footer{
 	clear: both;
+	background-color: #666666;
+	position: absolute;
+    bottom: 0;
+    height: 55px;
+    width: 100%;
+    margin: 0 auto;   
 }
 
 .header{
@@ -33,7 +38,7 @@ footer{
 }
 .nav{
 	padding-bottom: 20px;
-	padding: 25px 50px 0px 400px;
+	padding: 25px 50px 0px 325px;
 	display: inline;
 }
 .about{
@@ -52,6 +57,9 @@ footer{
 	width: 160px;
 	float: left;
 }
+.foottext{
+	align-content: center;
+}
 
 #name{
 	background-color: #4aaaa5;
@@ -67,4 +75,28 @@ footer{
 	width: 250px;
 	float :left;
 	padding: 20px;
+}
+
+#headerone{
+	font-size: 28px;
+	border-bottom: solid #cccccc 1px;
+	margin-bottom: 15px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+#headertwo{
+	font-size: 20px;
+	border-bottom: solid #cccccc 1px;
+	align-content: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-bottom: 25px;
+}
+#empty{
+	background-color: #4aaaa5;
+	position: absolute;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    margin: 0 auto; 
 }
