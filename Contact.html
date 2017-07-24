@@ -7,62 +7,67 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <title>HTML Portfolio</title>
-    <!--MAKE FAVICON FOR THIS BAD BOY-->
 </head>
 
+<div id='wrap'>
 
 <body>
     <div class='header'>
         <h1 id='name'>Philip Kappaz II</h1>
         
-        <!-- THINK ABOUT MAKING THIS A DIFFERENT DIV FOR NAV-->
-        <!-- BUTTONS ABOUT -->
-        <!-- BUTTONS PORTFOLIO -->
-        <!-- BUTTONS CONTACT -->
+        <br>
+
+            <div class='nav'>
+                <ul>
+                    <li><a href='index.html'>About</a></li>
+                    <li><a href='Portfolio.html'>Portfolio</a></li>
+                    <li><a href='contact.html'>Contact</a></li>
+                </ul>    
+            </div>
     </div>
 
-    <div class='contact'>
-<form>    
-	<div class='#'>
-        <div class='##'>
-            <label>First Name</label>
-            <input placeholder='Phil' type='text'>
+    <div class='about'>
+
+    <h1 id='headerthree'>Contact</h1>
+
+<form style='font-family:arial;'>    
+    <div class='formdiv'>
+        <div class='inputname'>
+            <label>Name</label>
+            <input placeholder='Phil Kappaz' type='text'>
         </div>
         <br>
-        <div class='###'>
-            <label>Last Name</label>
-            <input placeholder='Kappaz' type='text'>
+        <div class='inputemail'>
+            <label>Email</label>
+            <input placeholder='Example@gmail.com' type='email'>
         </div>
+        <br>
         <br>
     </div>
-    	<div class='####'>
-        	<label>Email</label>
-        	<input placeholder='scoobydoo@email.com' type='email'>
-    	</div>
-    <textarea rows="10" cols="50">
-    filler text
-    </textarea>
+    <label>Message</label>   
+    <textarea rows="10" cols="50"></textarea>
+    <br>
+    <br>
+    <button type="button" onclick="alert('Thank you!')">Submit</button>
 </form>
-
-		<!--SUBMIT BUTTON-->
+    
+    </div>
 
     <div class='connect'>
-        <h2>Connect with Me</h2>
+        <h2 id='headertwo'>Connect with Me</h2>
         <ul>
-            <li><!-- BUTTONS FB --></li>
-            <li><!-- BUTTONS LI --></li>
-            <li><!-- BUTTONS SO --></li>
-            <li><!-- BUTTONS GH --></li>
+            <li><a href='https://www.facebook.com/philip.kappaz?ref=bookmarks' target='_blank'><img src='assets/images/facebook.png'></a></li>
+            <li><a href='https://www.linkedin.com/in/philip-kappaz2/' target='_blank'><img src='assets/images/linkedin.png'></a></li>
+            <li><a href='https://github.com/PhilipK2' target='_blank'><img src='assets/images/github-sign.png'></a></li>
         </ul>
     </div>
 
-
-    <footer>
-        <p class='group'>Copyright @ PK2 Productions<img src='pk234.jpg' alt='PK2 Productions Logo'></p>
-    </footer>
-
-
-
 </body>
+<div id='empty'></div>
+<footer>
+    <p class='foottext'>Copyright @ PK2 Productions</p>
+</footer>
+
+</div> 
 
 </html>
