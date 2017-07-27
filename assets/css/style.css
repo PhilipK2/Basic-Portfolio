@@ -27,7 +27,7 @@ footer{
 	background-color: #666666;
 	color: #777777;
 	position: absolute;
-    bottom: 0;
+    bottom: -20px;
     height: 50px;
     width: 960px;
     margin: 20px auto;
@@ -137,6 +137,7 @@ PORTFOLIO IMAGES CSS */
     height: 57px;
     width: 960px;
     margin: 0 auto; 
+    clear: both;
 }
 #wrap{
 	width:960px;
