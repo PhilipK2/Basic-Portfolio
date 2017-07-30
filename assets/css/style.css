@@ -178,3 +178,20 @@ button {
     cursor: pointer;
     font-family: arial;
 }
+
+/****************************************************************
+*****************************************************************
+MEDIA QUERYS */
+
+@media screen and (max-width: 768px){
+	body{
+
+	}
+	.connect{
+	width: 600px;
+	justify-content: center;
+	}
+	#wrap{
+		width:768px;
+	}
+}
