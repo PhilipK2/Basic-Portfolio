@@ -188,6 +188,9 @@ MEDIA QUERYS INDEX.HTML*/
 	.contact-page footer{
 		position:absolute;
 	}
+	body{
+		width: 960px;
+	}
 
 
 	li a{
@@ -267,6 +270,10 @@ MEDIA QUERYS INDEX.HTML*/
 
 @media screen and (max-width: 768px){
 
+	body{
+		width: 768px;
+	}	
+
 	.contact-page footer{
 		position: relative;
 		bottom: 0;
@@ -337,6 +344,10 @@ MEDIA QUERYS INDEX.HTML*/
 
 
 @media screen and (max-width: 640px){
+
+	body{
+		width: 640px;
+	}
 
 	li a {
     	padding: 75px;
